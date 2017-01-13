@@ -1,0 +1,5 @@
+#!/bin/bash
+cat <<EOF
+This is a S2I Apache CentOS base image:
+To use it, install S2I: https://github.com/openshift/source-to-image
+EOF
