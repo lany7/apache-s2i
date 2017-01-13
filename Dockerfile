@@ -16,6 +16,6 @@ LABEL io.k8s.description="lany's apache s2i image" \
 EXPOSE 8080
 
 COPY ./s2i/ $STI_SCRIPTS_PATH
-USER nobody
+USER 1001
 #CMD /usr/sbin/httpd -DFOREGROUND
 CMD /$STI_SCRIPTS_PATH/usage
